@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #c7f9cc;
+    color: #0e2433;
+  }
+
+  header {
+    background: #38a3a5;
+    padding: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0e2433;
+    font-weight: bold;
+    font-size: 1.7rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cv-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    background-color: #57cc99;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #38a3a5;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+
+  form textarea {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.1rem;
+    border: 3px solid #38a3a5;
+    border-radius: 5px;
+    resize: vertical; 
+    min-height: 100px; 
+    box-sizing: border-box;
+  }
+  
+  
+  form input, form select {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1.1rem;
+    border: 3px solid #38a3a5;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"],button[type="submit"] {
+    background-color: #3f9570;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+  
+  input[type="submit"]:hover,button[type="submit"]:hover {
+    background-color: #2e6d52;
+  }
